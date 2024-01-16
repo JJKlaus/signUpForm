@@ -1,0 +1,84 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    background-color: #4d4d4db9;
+    color: #f5f5f5;
+    width: 100%;
+}
+
+.left{
+    width: 40%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/leafs.avif);
+    background-size: cover;
+}
+
+.right{
+    width: 60%;
+    min-height: 100vh;
+    background-color: #8db188;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+}
+
+.infoText{
+    padding-left: 64px;
+    padding-top: 128px;
+    padding-right: 128px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.signUpBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    padding-left: 64px;
+}
+
+.infoField{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.bottom{
+    border-top: 5px solid #4f584e;
+    width: auto;
+    padding-left: 64px;
+}
+
+.createButton{
+    background-color: #739e6f;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
