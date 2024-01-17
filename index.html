@@ -8,7 +8,11 @@
 </head>
 <body>
     <div class="left">
-        <h1><img src="images/odin-lined.png" style="scale: 25%;">Odin</h1>
+
+        <p  class="title">
+            <img src="images/odin-lined.png" class="lineImg">
+            Odin
+        </p>
     </div>
     <div class="right">
         <div class="infoText">
@@ -17,26 +21,34 @@
             <p>You know you want to.</p>
             <p>Let's do this!</p>
         </div>
-        <div class="signUpBox">
-            <div class="infoField">
-                <p>First Name</p>
-            </div>
-            <div class="infoField">
-                <p>Last Name</p>
-            </div>
-            <div class="infoField">
-                <p>Email</p>
-            </div>
-            <div class="infoField">
-                <p>Phone Number</p>
-            </div>
-            <div class="infoField">
-                <p>Password</p>   
-            </div>
-            <div class="infoField">
-                <p>Confirm Password</p>
-            </div>
-        </div>
+        <form class="signUpBox">
+            
+                <li class="infoField">
+                    <label for="Fname">First Name</label>
+                    <input type="text" id="Fname" name="firstName" />
+                </li>
+                <li class="infoField">
+                    <label for="Lname">Last Name</label>
+                    <input type="text" id="Lname" name="lastName" />
+                </li>
+                <li class="infoField">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="userEmail" />
+                </li>
+                <li class="infoField">
+                    <label for="phoneNum">Phone Number</label>
+                    <input type="number" id="phoneNum" name="userPhoneNumber" />
+                </li>
+               <li class="infoField">
+                    <label for="password">Password</label>   
+                    <input type="password" id="password" name="userPassword" />
+               </li>
+                <li class="infoField">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="userPassCheck" />
+                </li>
+          
+        </form>
         <div class="bottom">
             <button class="createButton">Create Account</button>
             <p>Already have an account? <a href="login.php">Log in</a></p>
