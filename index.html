@@ -21,7 +21,7 @@
             <p>You know you want to.</p>
             <p>Let's do this!</p>
         </div>
-        <form class="signUpBox">
+        <form action="/signUps/" method="post" class="signUpBox">
             
                 <li class="infoField">
                     <label for="Fname">First Name</label>
@@ -47,10 +47,12 @@
                     <label for="confirmPassword">Confirm Password</label>
                     <input type="password" id="confirmPassword" name="userPassCheck" />
                 </li>
+                <li class="button infoField">
+                    <button class="createButton" type="submit">Create Account</button>
+                </li>
           
         </form>
         <div class="bottom">
-            <button class="createButton">Create Account</button>
             <p>Already have an account? <a href="login.php">Log in</a></p>
         </div>
     </div>
